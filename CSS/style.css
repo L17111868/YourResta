@@ -1,4 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap');
+@font-face{
+    font-family: "Pacifico";
+    src: url(../fonts/Pacifico-Regular.ttf)
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.ttf)
+}
+
+@font-face{
+    font-family: "Montserrat";
+    font-weight: bold;
+    src: url(../fonts/Montserrat-Bold.ttf)
+}
+
 * {
     box-sizing: border-box;
 }
@@ -284,7 +298,7 @@ border-radius: 50%;
         background: rgba(0,0,0,.85);
     }
     .banner{
-        margin-top: -155px;
+        margin-top: -190px;
         z-index: -1000;
     }
     .banner__img{
